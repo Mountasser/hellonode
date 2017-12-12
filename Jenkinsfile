@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("r/mountasser/ci")
+        app = docker.build("mountasser/hellonode")
     }
 
     stage('Test image') {
